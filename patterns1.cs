@@ -3,7 +3,7 @@
 
 namespace ConsoleApp2
 {
-    internal class Program
+    internal class patterns1
     {
         static void Main(string[] args)
         {
@@ -39,6 +39,8 @@ namespace ConsoleApp2
             //}
 
 
+
+
             //Output:
             //*****
             //*****
@@ -54,6 +56,9 @@ namespace ConsoleApp2
             //    Console.WriteLine();
             //}
 
+
+
+
             //Output:
             //1
             //12
@@ -68,6 +73,8 @@ namespace ConsoleApp2
             //    }
             //    Console.WriteLine();
             //}
+
+
 
             //Output:
             //    *
