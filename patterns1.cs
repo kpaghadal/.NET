@@ -157,10 +157,10 @@ namespace ConsoleApp2
             //Console.WriteLine(res);
 
 
-            int a = 5;
-            int b = 5;
-            int res = ++a + b++ + b++ + a++ + ++a + ++b + a++;          ////output47 6+5+6+6+8+8+8
-            Console.WriteLine(res);
+            //int a = 5;
+            //int b = 5;
+            //int res = ++a + b++ + b++ + a++ + ++a + ++b + a++;          ////output47 6+5+6+6+8+8+8
+            //Console.WriteLine(res);
 
             
 

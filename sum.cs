@@ -10,7 +10,7 @@ namespace ConsoleApp2
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("enter the number:1");
+            Console.WriteLine("enter the number:13");
             int a = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("enter the number:2");
