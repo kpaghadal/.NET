@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class program2
+    
+  
+    internal class swapmethod
     {
+        int a;
+        
     }
 }

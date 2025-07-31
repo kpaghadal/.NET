@@ -162,8 +162,17 @@ namespace ConsoleApp2
             //int res = ++a + b++ + b++ + a++ + ++a + ++b + a++;          ////output47 6+5+6+6+8+8+8
             //Console.WriteLine(res);
 
-            
 
+
+
+            for (int i = 1; i <= 5; i++)
+            {
+                for (int j = 1; j <= 3; j++)
+                {
+                    Console.Write("4" , "4");
+                }
+                Console.WriteLine();
+            }
 
 
 
