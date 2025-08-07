@@ -6,26 +6,40 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class methodoverloading
-    {
-        void Sum(int x=8, int y = 8)
+    
+        class Student
         {
-           
-          
+            private string firstname;
+         
 
+            public string getFirstName()
+            {
+                return firstname;
+            }
+
+            public void setFirstName(string fstname)
+            {
+                firstname = fstname;
+            }
+
+            public string FirstName
+            {
+                               get { return firstname; }
+                set { firstname = value; }
+            }
         }
-        void Sum(int x=9, float y=7.8)
+
+        class Test
         {
-           
+            static void Main()
+            {
+                Student obj = new Student();
+                obj.setFirstName("ramesh");
+                Console.WriteLine(obj.getFirstName());
+                obj.FirstName = "ramesh";
+                Console.WriteLine(obj.FirstName);
 
-
+            }
         }
-        static void Main()
-        {
-            
-
-        }
-
-
     }
-}
+
